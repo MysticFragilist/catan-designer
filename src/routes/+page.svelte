@@ -152,9 +152,14 @@
 
   <!-- Header -->
   <header class="landing-header">
-    <div class="logo">🏝️</div>
+    <div class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="40" height="40">
+        <polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="#6366f1" stroke="#818cf8" stroke-width="1.5"/>
+        <text x="16" y="22" text-anchor="middle" font-size="16">🏝️</text>
+      </svg>
+    </div>
     <div class="title-group">
-      <h1>Catan Designer</h1>
+      <h1>Catan Map Editor</h1>
       <p>Create and save custom board layouts</p>
     </div>
   </header>
@@ -327,8 +332,8 @@
   }
 
   .logo {
-    font-size: 40px;
-    line-height: 1;
+    display: flex;
+    align-items: center;
   }
 
   .title-group h1 {
